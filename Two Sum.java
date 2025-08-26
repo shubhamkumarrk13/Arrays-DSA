@@ -16,6 +16,8 @@ class Solution {
                 result[0] = map.get(remaining);
 
                 result[1] = i;
+
+                break;
             }
 
             map.put(nums[i] , i);
